@@ -4,13 +4,15 @@ body{
 .header{
     display: flex;
     flex-direction: row;
-    height: 76px;
     border-bottom: solid #EFF5FB;
 }
-.header__logo-img{
-    width: 51px;
-    height: 36px;
+@media (min-width: 1025px) and (max-width: 1440px) {
+    .header__logo-img{
+        width: 51px;
+        height: 36px;
+    }
 }
+
 .header__logo{
     display: flex;
     align-items: center;
